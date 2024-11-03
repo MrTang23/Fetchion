@@ -133,8 +133,10 @@ api.get('/invalid-endpoint')
 
 欢迎对 Fetchion 的贡献！请提交 Pull Request 或报告问题。
 
-许可证
+## 许可证
 
-MIT 许可证。有关详细信息，请查看 LICENSE 文件。
+本项目遵循 MIT 许可证。详细条款请参阅 [LICENSE 文件](./LICENSE)。
 
-你可以根据项目的具体需求和特性，进一步调整或扩展这个 `README.md` 文件的内容。
+---
+
+版权所有 © 2024 MrTang23
