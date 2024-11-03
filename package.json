@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "一个快速的网络请求库，遵循 RESTful 规范，支持多种请求类型和数据格式。",
-  "main": "src/core/Fetchion.js",
+  "main": "main.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/MrTang23/fetchion.git"
