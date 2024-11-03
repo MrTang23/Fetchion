@@ -2,8 +2,8 @@
   "name": "fetchion",
   "version": "1.0.0",
   "type": "module",
-  "description": "一个快速的网络请求库，遵循 RESTful 规范，支持多种请求类型和数据格式。",
-  "main": "main.js",
+  "description": "一个轻量级的 JavaScript 请求库，专注于遵循 RESTful 规范，旨在提供简洁且高效的代码体验。它支持多种请求方法，易于配置，适合快速构建现代 web 应用程序。",
+  "main": "dist/fetchion.umd.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/MrTang23/Fetchion.git"
@@ -20,5 +20,21 @@
   "bugs": {
     "url": "https://github.com/MrTang23/Fetchion/issues"
   },
-  "homepage": "https://github.com/MrTang23/Fetchion#readme"
+  "homepage": "https://github.com/MrTang23/Fetchion#readme",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
 }
